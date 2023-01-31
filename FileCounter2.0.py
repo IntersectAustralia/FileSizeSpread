@@ -34,7 +34,7 @@ for entry in entries:
 
 #creates a user input to select the file that needs to be calculated.
 file_to_open = input('choose a file to open (e.g Q1234): ')
-fixed_filename = f"{file_to_open}-filesizes.txt"
+fixed_filename = f"./Filesizes/{file_to_open}-filesizes.txt"
 contents = open(fixed_filename, 'r')
 
 #goes through the file one line at a time to determine the rough filesize of each line and adds to the counter
